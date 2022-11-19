@@ -13,14 +13,14 @@
 	height: 569px;
 	list-style: none;
 	position:absolute;
-	top:-65px;
+	top:-87px;
 	left:2px;
 }
 #flash #play li{
 	display: none;
 	position:absolute;
-	top:43px;
-	left:78px;
+	top:10px;
+	left:56px;
 	width: 1075px;
 	height: 590px;
 }
@@ -32,11 +32,10 @@
 #next{width:40px;height:63px;background:url(images/beijing.png) -40px 0px;position: absolute;top:205px;right:10px;z-index: 1000;}
 #prev:hover{background:url(images/beijing.png) 0px -62px;}
 #next:hover{background:url(images/beijing.png) -40px -62px;}
+<!--
 body {
 	background-repeat: no-repeat;
-		margin: 0 auto;
-		width:auto;
-	}
+}
 .STYLE7 {font-size: larger; color: #FFFFFF; }
 .STYLE12 {
 	font-size: 45px;
@@ -49,15 +48,20 @@ body {
 }
 .STYLE14 {color: #FFFFFF}
 .STYLE20 {font-size: 35px; font-weight: bold; color: #FFFFFF; font-family: Arial, Helvetica, sans-serif; }
-#button {position: absolute;bottom:-64px;left:525px;list-style: none;}
+#button {
+	position: absolute;
+	bottom:-33px;
+	left:392px;
+	list-style: none;
+}
 #flash {width:1200px;height: 535px;margin: 50px auto;position: relative;}
 #next {
 	width:40px;
 	height:63px;
 	background:url(images/beijing.png) -40px 0px;
 	position: absolute;
-	top:275px;
-	right:-4px;
+	top:252px;
+	right:12px;
 	z-index: 1000;
 }
 #prev {
@@ -94,105 +98,69 @@ body {
 }
 #prev3 {width:40px;height:63px;background:url(images/beijing.png) 0px 0px;position: absolute;top:205px;left:10px;z-index: 1000;}
 #prev3 {width:40px;height:63px;background:url(images/beijing.png) 0px 0px;position: absolute;top:205px;left:10px;z-index: 1000;}
-.STYLE22 {color: #000000}
+.STYLE21 {
+	font-size: 25px;
+	color: #FFFF00;
+	font-weight: bold;
+}
 </style>
 <script type="text/javascript" src="js/script.js"></script>
-<script  type="text/javascript"  >
-        window.onload = function(){
-            var demo = document.getElementById('demo');
-            var sx = sy = 10;
-            var x = y = 0;
- 
-            function move(){
-                if(document.documentElement.clientWidth - demo.offsetWidth-10 < x || x < 0){
-                    sx = -sx;
-                }
- 
-                if(document.documentElement.clientHeight - demo.offsetHeight-10 < y || y < 0){
-                    sy = -sy;
-                }
- 
-                x = demo.offsetLeft + sx;
-                y = demo.offsetTop + sy;
- 
-                demo.style.left = x + 'px';
-                demo.style.top = y + 'px';
-            }
- 
-            var timer = setInterval(move, 100);
- 
-            demo.onmouseover = function(){
-                clearInterval(timer);
-            }
- 
-            demo.onmouseout = function(){
-                timer = setInterval(move, 100);
-            }
-        }
-    </script>
+
 </head>
 <body>
-   <div  id="demo" style  ="color :#FF0000;font-size :larger; width :400px; position:absolute; z-index:99999">
-    <h3 align="center">2022招新公告</h3>
-     <p >书写不一样精彩的青春，你就是唯一！</p>
-
-<p >现在！加入广生态醒狮团 重温当年的激扬！</p>
-
-<p >跟我们成为醒狮人，传承古老的广东醒狮！！！...</p>
-
-<p ><a href="stzx.html">点击这里，联系醒狮团！！</a></p>
-    </div>
-<table width="1621" border="0" cellpadding="0" cellspacing="0">
+<table width="1622" border="0" cellpadding="0" cellspacing="0">
   <tr>
-    <td height="966" colspan="2" align="center" valign="top" bordercolor="#FFFFFF" bgcolor="#FFFFFF"><table width="97%" border="0" cellpadding="0" cellspacing="0">
+    <td height="966" colspan="2" align="center" valign="top" bordercolor="#FFFFFF" bgcolor="#FFFFFF"><table width="100%" border="0" cellpadding="0" cellspacing="0">
       <tr>
         <td width="52%" bgcolor="#999999"><span class="STYLE7">欢迎光临 广东生态工程职业学院 醒狮团 官方网站</span></td>
-        <td width="48%" align="right" bgcolor="#999999"><span class="STYLE7"><a href="index - 副本2.html">旧网入口 |加入社团</a> | 联系我们</span></td>
+        <td width="48%" align="right" bgcolor="#999999"><span class="STYLE7"><a href="stzx.html">加入社团</a> | 联系我们</span></td>
       </tr>
     </table>
-      <table width="97%" border="0" cellpadding="0" cellspacing="0">
+      <table width="95%" border="0" cellpadding="0" cellspacing="0">
       <tr>
-        <td width="22%" rowspan="2"><img src="微信图片_20220719003548.png" width="379" height="265" /></td>
+        <td width="22%" rowspan="2" align="center" valign="top"><p><img src="微信图片_20220719003548.png" width="300" height="216" /></p>
+          <p><img src="15.png" width="164" height="161"></p></td>
         </tr>
       <tr>
-        <td height="450" align="center" valign="top" bgcolor="#FFFFFF"><p align="center"><img src="wz.png" width="987" height="163"></p>
-        <table width="99%" border="0" cellpadding="0" cellspacing="0" bgcolor="#FF0000">
+        <td width="78%" height="427" align="center" valign="top" bgcolor="#FFFFFF"><p align="center"><img src="wz.png" width="987" height="142"></p>
+        <table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#FF0000">
           <tr>
-        <td width="269"><span class="STYLE20">
+            <td width="212" align="center"><span class="STYLE20">
               <div class="nav1"><a href="index.html">网站首页</a>
                 <div class="nav2">
             <a href="https://gdsty.edu.cn/">学校官网</a>
             <a href="https://jw.gdsty.cn/">教务系统</a>
             <a href="https://dgsx.gdsty.cn/login">实习管理系统</a>
-             <a href="宣传页.html">宣传网页测试</a></div>
+            <a href="宣传页.html">宣传网页测试</a></div>
             </div>
               </span></td>
-            <td width="240" bgcolor="#FF0000"><span class="STYLE20"><a href="xswh.html">醒狮文化</a></span></td>
-            <td width="155"><span class="STYLE20"><a href="sp.html">视频</a></span></td>
-            <td width="322"><span class="STYLE20">社团简介</span></td>
-            <td width="256"><span class="STYLE20"><a href="stzx.html">社团招新</a></span></td>
-            <td width="256" class="STYLE20"><a href="nb.html">内部文件</a></td>
+            <td width="190" align="center" bgcolor="#FF0000"><span class="STYLE20"><a href="xswh.html">醒狮文化</a></span></td>
+            <td width="126" align="center"><span class="STYLE20"><a href="sp.html">视频</a></span></td>
+            <td width="252" align="center"><span class="STYLE20">社团简介</span></td>
+            <td width="202"><span class="STYLE20"><a href="stzx.html">社团招新</a></span></td>
+            <td width="206" class="STYLE20"><a href="nb.html">内部文件</a></td>
           </tr>
         </table>          
         <p align="left"><img src="22.PNG" width="223" height="212"><img src="21.PNG" width="230" height="223"><img src="22.PNG" alt="1" width="223" height="212"><img src="21.PNG" alt="1" width="230" height="223"><img src="22.PNG" alt="1" width="223" height="212"></p>
-        <p align="center"><img src="13221810.gif" width="176" height="14"><img src="13221810.gif" alt="1" width="176" height="14"><img src="13221810.gif" alt="2" width="176" height="14"><img src="13221810.gif" alt="3" width="176" height="14"><img src="13221810.gif" alt="4" width="176" height="14"><img src="13221810.gif" alt="1" width="176" height="14"></p></td>
+        <p align="left"><img src="13221810.gif" width="190" height="14"><img src="13221810.gif" alt="" width="190" height="14"><img src="13221810.gif" alt="" width="190" height="14"><img src="13221810.gif" alt="" width="190" height="14"><img src="13221810.gif" alt="" width="190" height="14"><img src="13221810.gif" alt="" width="190" height="14"></p></td>
         </tr>
       <tr>
         <td colspan="2"><hr /></td>
         </tr>
       
       <tr>
-        <td height="673" align="center" valign="middle"><p><img src="13221819.gif" width="141" height="13"><img src="13221822.gif" width="20" height="21"><img src="fanz.gif" width="141" height="13"></p>
+        <td height="702" align="center" valign="top"><p><img src="13221819.gif" width="139" height="13"><img src="13221822.gif" width="20" height="21"><img src="fanz.gif" width="139" height="13"></p>
           <p><img src="2014082723361288.png" width="48" height="48" /><img src="2014082723361288.png" alt="" width="48" height="48" /><img src="2014082723361288.png" alt="" width="48" height="48" /><img src="2014082723361288.png" alt="" width="48" height="48" /><img src="2014082723361288.png" alt="" width="48" height="48" /><img src="2014082723361288.png" alt="" width="48" height="48" /><img src="2014082723361288.png" alt="" width="48" height="48" /></p>
           <p><span class="STYLE12">2022年招新公告</span></p>
-          <table width="99%" border="0" cellpadding="0" cellspacing="0">
+          <table width="100%" border="0" cellpadding="0" cellspacing="0">
             <tr>
-              <td height="423" bgcolor="#FF3939"><p class="STYLE13">还记得小时候村口村尾“醒狮拜年”热闹的景象吗？</p>
-                <p class="STYLE13">小时候，由<span class="STYLE22">青壮年组成舞狮 </span>队伍是多少人的膜拜对象！</p>
+              <td height="575" align="center" valign="top" bgcolor="#FF3939"><p class="STYLE13">还记得小时候村口村尾“醒狮拜年”热闹的景象吗？</p>
+                <p class="STYLE13">小时候，由青壮年组成<em>舞狮</em>队伍是多少人的膜拜对象！</p>
                 <p class="STYLE13">他们集武术，舞蹈于一身，多才多艺！</p>
                 <p class="STYLE13">现在！加入广生态醒狮团 重温当年的激扬！</p>
                 <p class="STYLE13">跟我们成为醒狮人，传承古老的广东醒狮！！！...</p>
-                <p class="STYLE13"><a href="stzx.html">点击这里，联系醒狮团！！</a></p></td>
+                <p class="STYLE21">扫码报名！</p>
+                <p class="STYLE21"><img src="bm123.PNG" width="281" height="251"></p></td>
             </tr>
           </table>         </td>
           <td align="center" valign="middle"><p>&nbsp;</p>          
@@ -221,17 +189,16 @@ body {
               <li><div></div></li>
            </ul>
           </div>
-          <a href="js/script.js"></a>   
-          <p>&nbsp;</p></td>
+          </td>
         </tr>
     </table>    </td>
   </tr>
   <tr>
-    <td width="5" height="2631">&nbsp;</td>
+    <td width="6" height="2631">&nbsp;</td>
     <td width="1616" align="center" valign="top"><p><img src="22.jpg" width="1605" height="994" /></p>
       <table width="100%" border="0" cellpadding="0" cellspacing="0"><tr><td height="4304" align="center" valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="0">
         <tr>
-          <td align="center" valign="top"><img src="zp1.jpg" width="1589" height="1130"></td>
+          <td align="center" valign="top"><img src="zp1.jpg" width="1597" height="1130"></td>
         </tr>
         <tr>
           <td height="309" align="center" valign="top"><img src="zp2.jpg" width="1602" height="1034"></td>
@@ -244,7 +211,8 @@ body {
         </tr>
       </table></td>
         </tr>
-      </table>    </td>
+      </table>      
+    </td>
   </tr>
   <tr>
     <td height="93" colspan="2" bgcolor="#666666"><p align="center" class="STYLE14">本站所刊登的各类图片﹑信息和各种专题专栏资料，均属广东生态工程职业学院醒狮团版权所有，未经协议授权，禁止转载复制使用@2022-2023</p>

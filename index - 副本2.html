@@ -50,9 +50,51 @@ body {
 	a:link{text-decoration: none;}
 </style>
 <script type="text/javascript" src="js/script.js"></script>
+<script  type="text/javascript"  >
+        window.onload = function(){
+            var demo = document.getElementById('demo');
+            var sx = sy = 10;
+            var x = y = 0;
+ 
+            function move(){
+                if(document.documentElement.clientWidth - demo.offsetWidth-10 < x || x < 0){
+                    sx = -sx;
+                }
+ 
+                if(document.documentElement.clientHeight - demo.offsetHeight-10 < y || y < 0){
+                    sy = -sy;
+                }
+ 
+                x = demo.offsetLeft + sx;
+                y = demo.offsetTop + sy;
+ 
+                demo.style.left = x + 'px';
+                demo.style.top = y + 'px';
+            }
+ 
+            var timer = setInterval(move, 100);
+ 
+            demo.onmouseover = function(){
+                clearInterval(timer);
+            }
+ 
+            demo.onmouseout = function(){
+                timer = setInterval(move, 100);
+            }
+        }
+    </script>
 <title>广东生态工程职业学院  醒狮团</title><meta http-equiv="Content-Type" content="text/html; charset=utf-8"></head>
-
 <body>
+ <div  id="demo" style  ="color :#FF0000;font-size :larger; width :400px; position:absolute; z-index:99999">
+    <h3 align="center">2022招新公告</h3>
+     <p >书写不一样精彩的青春，你就是唯一！</p>
+
+<p >现在！加入广生态醒狮团 重温当年的激扬！</p>
+
+<p >跟我们成为醒狮人，传承古老的广东醒狮！！！...</p>
+
+<p ><a href="stzx.html">点击这里，联系醒狮团！！</a></p>
+    </div>
 <table width="1620" border="0" cellpadding="0" cellspacing="0">
   <tr>
     <td height="1020" colspan="2" align="center" valign="top" bordercolor="#FFFFFF" bgcolor="#FFFFFF"><table width="99%" border="0" cellpadding="0" cellspacing="0">
