@@ -42,15 +42,6 @@ body {
 	background-repeat: no-repeat;
 }
 .STYLE7 {font-size: larger; color: #FFFFFF; }
-.STYLE12 {
-	font-size: 45px;
-	font-weight: bold;
-	color: #FF0000;
-}
-.STYLE13 {
-	font-size: 25px;
-	color: #000000;
-}
 .STYLE14 {color: #FFFFFF}
 .STYLE20 {font-size: 35px; font-weight: bold; color: #FFFFFF; font-family: Arial, Helvetica, sans-serif; }
 #button {
@@ -103,27 +94,53 @@ body {
 }
 #prev3 {width:40px;height:63px;background:url(images/beijing.png) 0px 0px;position: absolute;top:205px;left:10px;z-index: 1000;}
 #prev3 {width:40px;height:63px;background:url(images/beijing.png) 0px 0px;position: absolute;top:205px;left:10px;z-index: 1000;}
-.STYLE21 {
-	font-size: 25px;
-	color: #FFFF00;
-	font-weight: bold;
-}
+ .w{
+	 position:fixed; bottom:0px; left:0px;
+ }
+  #box{  
+   height: 430px;
+   width: 360px;
+   position: relative;
+   display: inline-block;
+   background-color: #FF0000;
+   letter-spacing:0px;
+   line-height:35px;
+  border-radius:20px;
+  }
+  div>img:nth-child(2){
+   height: 30px;
+   width: 30px;
+   position: absolute;
+   top: 0px;
+   right: 0px;
+   cursor: pointer;//鼠标靠近光标变化
+  }
+  .STYLE13 {
+  	font-size: 25px;
+  	color: #000000;
+  	line-height:10px;
+  }
+  .STYLE12 {   position: relative;
+	  top: 12px;
+  	font-size: 40px;
+  	font-weight: bold;
+  	color: white;
+  	text-align: center;
+  }
+  .STYLE21 {
+  	font-size: 25px;
+  	color: #FFFF00;
+  	font-weight: bold;
+  }
 </style>
 <script type="text/javascript" src="js/script.js"></script>
-<SCRIPT language=javascript>
-<!--
-// open the related site windows
-function mbar(sobj) {
-var docurl =sobj.options[sobj.selectedIndex].value;
-if (docurl != "") {
-open(docurl,'_blank');
-sobj.selectedIndex=0;
-sobj.blur();
-}
-}//-->
-</script>
 </head>
-<body>
+<body><span class="w"><div id="box" >
+ <p class="STYLE12">2022年招新公告<br /><span class="STYLE21">粤生态院醒狮团开始招新啦！</span>
+	 <span class="STYLE13">微信扫描下方二维码！即可填写报名表哦
+<img src="bm123.PNG" width="281" height="251"></span></p>
+ <img id="close" src="删除.png" alt="">
+</div></span>
 <table width="1622" border="0" cellpadding="0" cellspacing="0">
   <tr>
     <td height="1153" colspan="2" align="center" valign="top" bordercolor="#FFFFFF" bgcolor="#FFFFFF"><table width="100%" border="0" cellpadding="0" cellspacing="0">
@@ -167,15 +184,11 @@ sobj.blur();
       <tr>
         <td height="702" align="center" valign="top"><p><img src="13221819.gif" width="139" height="13"><img src="13221822.gif" width="20" height="21"><img src="fanz.gif" width="139" height="13"></p>
           <p><img src="2014082723361288.png" width="48" height="48" /><img src="2014082723361288.png" alt="" width="48" height="48" /><img src="2014082723361288.png" alt="" width="48" height="48" /><img src="2014082723361288.png" alt="" width="48" height="48" /><img src="2014082723361288.png" alt="" width="48" height="48" /><img src="2014082723361288.png" alt="" width="48" height="48" /><img src="2014082723361288.png" alt="" width="48" height="48" /></p>
-          <p><span class="STYLE12">2022年招新公告</span></p>
+         
           <table width="100%" border="0" cellpadding="0" cellspacing="0">
             <tr>
-              <td height="575" align="center" valign="top" bgcolor="#FF3939"><p class="STYLE13">还记得小时候村口村尾“醒狮拜年”热闹的景象吗？</p>
-                <p class="STYLE13">小时候，由青壮年组成<em>舞狮</em> 队伍是多少人的膜拜对象！</p>
-                <p class="STYLE13">他们集武术，舞蹈于一身，多才多艺！</p>
-                <p class="STYLE13">现在！加入广生态醒狮团 重温当年的激扬！</p>
-                <p class="STYLE13">跟我们成为醒狮人，传承古老的广东醒狮！！！...</p>
-                <p class="STYLE21">扫码报名！</p>
+              <td height="575" align="center" valign="top" bgcolor="#FF3939">
+                <p class="STYLE21">微信扫码报名！</p>
                 <p class="STYLE21"><img src="bm123.PNG" width="281" height="251"></p></td>
             </tr>
           </table>         </td>
