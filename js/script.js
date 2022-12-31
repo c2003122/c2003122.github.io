@@ -1,5 +1,12 @@
 window.onload=function()
 {
+	var close = document.querySelector('#close');//招新窗口
+close.onclick = function (ev1) {
+   // 直接删除
+   // this.parentElement.remove();
+   // this.parentNode.remove();
+   //隐藏
+   this.parentElement.style.display = 'none';}//以上都是招新窗口
 		 var oPlay=document.getElementById('play');
 		 var aLi=oPlay.getElementsByTagName('li');
 		 var oButton=document.getElementById('button');
